@@ -1,4 +1,4 @@
-🧱 Smart Contract Code
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -43,89 +43,6 @@ contract SimpleWallet {
     }
 }
 
-
-⚙️ How It Works
-FunctionDescriptiondeposit()Allows users to deposit ETH into their wallet stored in the smart contract.withdraw(uint256 _amount)Enables users to withdraw ETH securely from their wallet.getBalance()Displays the caller’s current balance in the wallet.getContractBalance()Shows the total ETH held by the contract overall.
-
-🚀 How to Deploy & Test (Using Remix IDE)
-
-
-Visit Remix IDE.
-
-
-Click File Explorer → Create New File → name it SimpleWallet.sol.
-
-
-Paste the code above into the editor.
-
-
-Go to the Solidity Compiler tab → compile using version 0.8.0 or higher.
-
-
-Go to the Deploy & Run Transactions tab:
-
-
-Select Environment: “Remix VM (London)”
-
-
-Click Deploy
-
-
-
-
-After deployment:
-
-
-Use the Value (in ETH) box to enter an amount (e.g., 1)
-
-
-Click deposit() to send ETH into your wallet.
-
-
-Use getBalance() to check your current wallet balance.
-
-
-Call withdraw(amount) to take out ETH (e.g., 0.5 ETH).
-
-
-Use getContractBalance() to see total ETH held in the contract.
-
-
-
-
-
-🔐 Security Features
-
-
-Each user can only withdraw their own deposited balance.
-
-
-The contract rejects zero-value deposits.
-
-
-Uses Solidity’s require() statements to prevent invalid transactions.
-
-
-Transparent logs with events for every deposit and withdrawal.
-
-
-
-🧩 Future Improvements
-You can extend this project to:
-
-
-Add owner-only administrative controls (pause, emergency withdrawal, etc.)
-
-
-Support token deposits (ERC-20) instead of just ETH.
-
-
-Integrate with a frontend (React + Web3.js) to create a simple dApp interface.
-
-
-
-🧠 Author
-Aritra Hazra — Blockchain enthusiast learning Solidity and Ethereum smart contract development.
 
 
 
