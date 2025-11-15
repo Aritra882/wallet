@@ -1,35 +1,58 @@
-Here’s a tailored **README** section you can insert into your GitHub project (aligned with the style of your reference) to explain the screenshot you shared:
+⚡ Smart Contract Deployment — Celo Sepolia Testnet
 
----
+This repository documents a successful smart contract deployment on the Celo Sepolia Testnet, including verified transaction details and a deployment screenshot.
 
-## 🔍 Transaction Snapshot – CELO Testnet Contract Deployment
+🌐 Transaction Details
 
-<img width="1890" height="664" alt="Screenshot 2025-10-29 170349" src="https://github.com/user-attachments/assets/e66b8760-dacd-403b-9df3-424c8f0d51ca" />
+Network: Celo Sepolia Testnet
 
-### ✅ Overview
+Transaction Hash:
+0x76871343f3ae20a247e4eb6ac0408c2ac59da4bb6f4f7932175c38408bc29f7b
 
-This screenshot captures a **successful contract creation** on the Celo Testnet. It verifies that our deployment process executed properly and the contract was mined on-chain.
+Status: ✅ Success
 
-### 📋 Key Details
+Block Number: 8,452,773
 
-* **Network / Environment**: Celo Testnet
-* **Transaction Type**: Contract Creation
-* **Creator Address**: `0x06…A15a`
-* **Transaction Hash**: `0x76871343f3ae20a247e4eb6ac0408c2ac59da4bb6f4f7932175c38408bc29f7b`
-* **Status**: Success
-* **Block Number**: 8,452,773
-* **Confirmations**: 761
-* **Timestamp**: Oct 29, 2025 16:49:21 (+05:30 UTC)
-* **Confirmation Time**: ≤ 1 sec
+Timestamp: Oct 29, 2025 – 16:49:21 PM (+05:30 UTC)
 
-### 🎯 Purpose & Significance
+Confirmation Time: ≤ 1 second
 
-The image serves as evidence of the deployed smart contract’s on-chain existence and the performance of our deployment tooling. It helps:
+Action: Contract Creation
 
-* Validate that gas/transaction parameters were sufficient.
-* Confirm our script or deployment flow worked correctly in the test environment.
-* Provide traceability for future audits or review.
+Initiated By: 0x06...A15a
+
+📷 Deployment Screenshot
+
+(Add this image to your repository’s /assets or root folder and reference it below)
+
+f5eea3c6-382e-4268-bfc8-88482e9f976b.png
+
+Example embed:
+
+![Celo Deployment Screenshot]<img width="1890" height="664" alt="Screenshot 2025-10-29 170349" src="https://github.com/user-attachments/assets/89d07e99-31cc-46bb-9119-dce59dee10a8" />
 
 
----
+🧠 Summary
 
+This transaction represents the deployment of a smart contract to the Celo Sepolia Testnet.
+It confirms:
+
+Successful execution
+
+Proper block confirmation
+
+Transparent record on the Celo Blockscout explorer
+
+Verified deployment under the test environment
+
+🚀 Tools & Environment
+Component	Used
+IDE	Remix Ethereum
+Wallet	MetaMask
+Network	Celo Sepolia Testnet
+Explorer	Celo Blockscout
+👨‍💻 Author
+
+Aritra Hazra
+🎓 AI & ML Student | Narula Institute of Technology
+💡 Interested in Blockchain, Smart Contracts, and Decentralized Applications
